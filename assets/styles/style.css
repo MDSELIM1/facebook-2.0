@@ -132,7 +132,7 @@ header {
 .body-left {
     flex-basis: 25%;
     position: sticky;
-    top: 0;
+    top: 104px;
     border-radius: 4px;
     padding: 20px;
     align-self: flex-start;
@@ -145,7 +145,7 @@ header {
 .body-right {
     flex-basis: 25%;
     position: sticky;
-    top: 0;
+    top: 104px;
     background: #fff;
     border-radius: 4px;
     padding: 20px;
@@ -398,6 +398,97 @@ header {
 .post-input-box textarea::placeholder {
     font-weight: 500;
     font-size: 18px;
+}
+
+.add-post-link {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-post-link a {
+    display: flex;
+    align-items: center;color: #626262;font-weight: 500;font-size: 14px;
+}
+
+.add-post-link a img {
+    width: 40px;margin-right: 20px;
+}
+
+/* Post Content  */
+
+.post-content {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
+}
+
+.name-text span {
+    font-size: 13px;
+    color: #9a9a9a;
+}
+
+.post-text {
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+
+
+.post-text a {
+    display: block;
+}
+
+.Profile-link {
+    display: inline-block !important;
+    color: #666;
+    font-weight: 500;
+    font-size: 18px;
+}
+.Profile-link:hover{
+    text-decoration: underline;
+}
+
+.feed-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.like-comment-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity-icons div img {
+    width: 18px;
+    margin-right: 6px;
+}
+
+.activity-icons div {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.post-profile-icon {
+    display: flex;
+    align-items: center;
+}
+
+.post-profile-icon img {
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.like-comment-row a {
+    color: #9a9a9a;
 }
 
 /* Body Middle Section Write End Here  */
