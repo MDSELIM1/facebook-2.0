@@ -351,6 +351,55 @@ header {
 }
 
 
+/* Write Post Css  */
+
+.write-creat-post {
+    padding: 20px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    color: #626262;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.name-text p {
+    margin-bottom: -5px;
+    font-weight: 500;
+}
+
+.name-text small {
+    font-size: 12px;
+}
+
+
+.post-input-box {
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.post-input-box textarea {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    resize: none;
+}
+
+.post-input-box textarea::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+}
+
 /* Body Middle Section Write End Here  */
 
 
