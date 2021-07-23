@@ -1,0 +1,50 @@
+
+
+/* responsive width 860 px  */
+
+@media (max-width:860px) {
+    .container {
+        width: 95%;
+    }
+    header {
+        position: unset;
+    }
+    .nav-main {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .nav-left, .nav-right {
+        margin-bottom: 30px;
+    }
+    .logo {
+        width: 115px;
+        margin-right: 20px;
+    }
+    .left-event {
+        margin-bottom: 20px;
+    }
+    .post-input-box {
+        padding-left: 0;
+    }
+    .body-main {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .body-left{
+        position: unset;
+        order: 2;
+        width: 100%;
+    }
+    .body-middle {
+        order: 1;
+        width: 100%;
+    }
+    .body-right {
+        position: unset;
+        order: 3;
+        width: 100%;
+    }
+    .search-box {
+        width: 90%;
+    }
+}
