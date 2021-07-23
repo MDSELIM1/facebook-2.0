@@ -491,6 +491,7 @@ header {
     border-bottom: 1px solid #ccc;
     resize: none;
     background: transparent;
+    color: #ddd;
 }
 
 .post-input-box textarea::placeholder {
